@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Image
         run: |
-          docker build -t astontbarbay/latest .
+          docker build -t yatodak/astontbarbay:latest .
 
       - name: Docker Push
         run: |

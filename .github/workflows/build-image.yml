@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  DOCKER_PASSWORD = ${{ secrets.DOCKER_PASSWORD }}
+  DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
 jobs:
   build:

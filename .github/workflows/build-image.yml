@@ -25,4 +25,4 @@ jobs:
 
       - name: Docker Push
         run: |
-          docker push astontbarbay/latest
+          docker push yatodak/astontbarbay:latest
